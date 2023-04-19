@@ -1,0 +1,18 @@
+<div *ngIf="product">
+
+    <h2>{{product.Name | uppercase}} Details:</h2>
+    <div><span>Id: </span>{{product.Id}}</div>
+    <div>
+      <label for="prod-name">Name: </label>
+      <input id="prod-name"  [(ngModel)]="product.Name">
+    </div>
+    <div>
+        <label for="prod-price">Price: </label>
+        <input id="prod-price"  [(ngModel)]="product.Price">
+      </div>
+      <div>
+        <label for="prod-category">Category: </label>
+        <input id="prod-category"  [(ngModel)]="product.Category">
+      </div>
+    <button type="button" (click)="goBack()">go back</button>
+  </div>
