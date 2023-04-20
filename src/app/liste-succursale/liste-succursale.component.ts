@@ -21,7 +21,5 @@ export class ListeSuccursaleComponent implements OnInit{
     .subscribe(succursales => this.succursales = succursales.slice(0,5));
   }
 
-  // selectedSuccursale?: Succursale;
-  // onSelect(product: Succursale): void {
-  // this.selectedSuccursale = product;
+ 
 }

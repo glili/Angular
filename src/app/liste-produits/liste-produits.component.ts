@@ -21,8 +21,6 @@ export class ListeProduitsComponent implements OnInit{
       .subscribe(products => this.products = products.slice(0,10));
     }
   
-    // selectedProduct?: Product;
-    // onSelect(product: Product): void {
-    // this.selectedProduct = product;
+
 }
 
