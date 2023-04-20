@@ -1,0 +1,11 @@
+.centered{
+    left: 50%;
+    top: 25%;
+    margin-left: -8%;
+    position: absolute;
+  
+}
+
+input, textarea{
+    margin-bottom: 20px;
+}

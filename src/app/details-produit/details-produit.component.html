@@ -1,7 +1,7 @@
 <div *ngIf="product">
 
     <h2>{{product.Name | uppercase}} Details:</h2>
-    <div><span>Id: </span>{{product.Id}}</div>
+    <div><span>Id: </span>{{product.id}}</div>
     <div>
       <label for="prod-name">Name: </label>
       <input id="prod-name"  [(ngModel)]="product.Name">

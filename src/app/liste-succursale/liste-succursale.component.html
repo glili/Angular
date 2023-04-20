@@ -1,1 +1,18 @@
-<p>liste-succursale works!</p>
+<h2>Succursales: </h2>
+<ul class="succursales">
+    <li *ngFor="let succursale of succursales">
+        <a routerLink="/detailSuccursale/{{succursale.id}}">
+            <span class="badge">{{succursale.id}}</span>{{succursale.Name}}
+        </a> 
+    </li>
+</ul>
+
+<!-- <ul class="succursales">
+    <li *ngFor="let succursale of succursales">
+      <button [class.selected]="succursale === selectedSuccursale" type="button" (click)="onSelect(succursale)">
+        <span class="badge">{{succursale.Id}}</span>
+        <span class="name">{{succursale.Name}}</span>
+      </button>
+    </li>
+  </ul> 
+<app-details-succursale [succursale]="selectedSuccursale"></app-details-succursale> -->

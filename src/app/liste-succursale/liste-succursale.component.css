@@ -1,0 +1,63 @@
+.succursales {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    min-width: 15%;
+  
+  }
+  .succursales li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .succursales li:hover {
+    left: .1em;
+  }
+  
+  .succursales a {
+    color: #333;
+    text-decoration: none;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+  }
+  
+  .succursales a:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+  }
+  
+  .succursales a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+  
+  .succursales .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  span{
+    margin:5px;
+  }
+
+  h2{
+    margin: 10px;
+    text-align: center;
+  }

@@ -1,5 +1,5 @@
 export interface Succursale {
-    Id: number;
+    id: number;
     Name: string;
     Address: string;
 }

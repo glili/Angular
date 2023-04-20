@@ -1,1 +1,14 @@
-<p>details-succursale works!</p>
+<div *ngIf="succursale" class="succursale">
+
+    <h2>{{succursale.Name | uppercase}} Details:</h2>
+    <div><span>Id: </span>{{succursale.id}}</div>
+    <div>
+      <label for="succ-name">Name: </label>
+      <input id="succ-name"  [(ngModel)]="succursale.Name">
+    </div>
+    <div>
+        <label for="succ-address">Address: </label>
+        <input id="succ-address"  [(ngModel)]="succursale.Address">
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+</div>

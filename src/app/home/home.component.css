@@ -1,0 +1,22 @@
+.banner{
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    margin-top: 10px;
+}
+
+.div1{
+    float:left;
+    width: 600px;
+    margin-left: 40px;
+}
+
+img{
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+}
+    
+.padded{
+    padding: 5px;
+}
+
